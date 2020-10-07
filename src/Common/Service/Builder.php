@@ -7,9 +7,9 @@ namespace OpenStack\Common\Service;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Middleware as GuzzleMiddleware;
+use GuzzleHttp\HandlerStack;
 use OpenStack\Common\Auth\IdentityService;
 use OpenStack\Common\Auth\Token;
-use OpenStack\Common\Transport\HandlerStack;
 use OpenStack\Common\Transport\Middleware;
 use OpenStack\Common\Transport\Utils;
 
